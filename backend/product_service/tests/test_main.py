@@ -21,7 +21,7 @@ logging.getLogger("uvicorn.error").setLevel(logging.WARNING)
 logging.getLogger("fastapi").setLevel(logging.WARNING)
 logging.getLogger("app.main").setLevel(logging.WARNING)  # Suppress app's own info logs
 
-#SOme change
+#SOme changeee
 # --- Pytest Fixtures ---
 @pytest.fixture(scope="session", autouse=True)
 def setup_database_for_tests():
